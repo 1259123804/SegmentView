@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6F095CA1D7D4A2B00CB50E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F095C91D7D4A2B00CB50E6 /* main.m */; };
+		D6F095CD1D7D4A2B00CB50E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F095CC1D7D4A2B00CB50E6 /* AppDelegate.m */; };
+		D6F095D01D7D4A2B00CB50E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F095CF1D7D4A2B00CB50E6 /* ViewController.m */; };
+		D6F095D31D7D4A2B00CB50E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F095D11D7D4A2B00CB50E6 /* Main.storyboard */; };
+		D6F095D51D7D4A2B00CB50E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F095D41D7D4A2B00CB50E6 /* Assets.xcassets */; };
+		D6F095D81D7D4A2B00CB50E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F095D61D7D4A2B00CB50E6 /* LaunchScreen.storyboard */; };
+		D6F095E31D7D4A2B00CB50E6 /* MySegmentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F095E21D7D4A2B00CB50E6 /* MySegmentViewTests.m */; };
+		D6F095EE1D7D4A2B00CB50E6 /* MySegmentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F095ED1D7D4A2B00CB50E6 /* MySegmentViewUITests.m */; };
+		D6F096001D7D4B0900CB50E6 /* MainTouchTableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F095FD1D7D4B0900CB50E6 /* MainTouchTableTableView.m */; };
+		D6F096011D7D4B0900CB50E6 /* MYSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F095FF1D7D4B0900CB50E6 /* MYSegmentView.m */; };
+		D6F096081D7D4B3E00CB50E6 /* SegmentPageBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F096031D7D4B3E00CB50E6 /* SegmentPageBaseViewController.m */; };
+		D6F096091D7D4B3E00CB50E6 /* SegmentSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F096051D7D4B3E00CB50E6 /* SegmentSuperViewController.m */; };
+		D6F0960A1D7D4B3E00CB50E6 /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F096071D7D4B3E00CB50E6 /* SegmentViewController.m */; };
+		D6F0960C1D7D4BB200CB50E6 /* Animal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6F0960B1D7D4BB200CB50E6 /* Animal.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F095DF1D7D4A2B00CB50E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F095BD1D7D4A2B00CB50E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F095C41D7D4A2B00CB50E6;
+			remoteInfo = MySegmentView;
+		};
+		D6F095EA1D7D4A2B00CB50E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F095BD1D7D4A2B00CB50E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F095C41D7D4A2B00CB50E6;
+			remoteInfo = MySegmentView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6F095C51D7D4A2B00CB50E6 /* MySegmentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySegmentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F095C91D7D4A2B00CB50E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6F095CB1D7D4A2B00CB50E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6F095CC1D7D4A2B00CB50E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6F095CE1D7D4A2B00CB50E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6F095CF1D7D4A2B00CB50E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6F095D21D7D4A2B00CB50E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F095D41D7D4A2B00CB50E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F095D71D7D4A2B00CB50E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F095D91D7D4A2B00CB50E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F095DE1D7D4A2B00CB50E6 /* MySegmentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySegmentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F095E21D7D4A2B00CB50E6 /* MySegmentViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySegmentViewTests.m; sourceTree = "<group>"; };
+		D6F095E41D7D4A2B00CB50E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F095E91D7D4A2B00CB50E6 /* MySegmentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySegmentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F095ED1D7D4A2B00CB50E6 /* MySegmentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySegmentViewUITests.m; sourceTree = "<group>"; };
+		D6F095EF1D7D4A2B00CB50E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F095FC1D7D4B0900CB50E6 /* MainTouchTableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTouchTableTableView.h; sourceTree = "<group>"; };
+		D6F095FD1D7D4B0900CB50E6 /* MainTouchTableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTouchTableTableView.m; sourceTree = "<group>"; };
+		D6F095FE1D7D4B0900CB50E6 /* MYSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYSegmentView.h; sourceTree = "<group>"; };
+		D6F095FF1D7D4B0900CB50E6 /* MYSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSegmentView.m; sourceTree = "<group>"; };
+		D6F096021D7D4B3E00CB50E6 /* SegmentPageBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentPageBaseViewController.h; sourceTree = "<group>"; };
+		D6F096031D7D4B3E00CB50E6 /* SegmentPageBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentPageBaseViewController.m; sourceTree = "<group>"; };
+		D6F096041D7D4B3E00CB50E6 /* SegmentSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentSuperViewController.h; sourceTree = "<group>"; };
+		D6F096051D7D4B3E00CB50E6 /* SegmentSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentSuperViewController.m; sourceTree = "<group>"; };
+		D6F096061D7D4B3E00CB50E6 /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
+		D6F096071D7D4B3E00CB50E6 /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
+		D6F0960B1D7D4BB200CB50E6 /* Animal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F095C21D7D4A2B00CB50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F095DB1D7D4A2B00CB50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F095E61D7D4A2B00CB50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F095BC1D7D4A2B00CB50E6 = {
+			isa = PBXGroup;
+			children = (
+				D6F095C71D7D4A2B00CB50E6 /* MySegmentView */,
+				D6F095E11D7D4A2B00CB50E6 /* MySegmentViewTests */,
+				D6F095EC1D7D4A2B00CB50E6 /* MySegmentViewUITests */,
+				D6F095C61D7D4A2B00CB50E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F095C61D7D4A2B00CB50E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F095C51D7D4A2B00CB50E6 /* MySegmentView.app */,
+				D6F095DE1D7D4A2B00CB50E6 /* MySegmentViewTests.xctest */,
+				D6F095E91D7D4A2B00CB50E6 /* MySegmentViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F095C71D7D4A2B00CB50E6 /* MySegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				D6F095FB1D7D4A7C00CB50E6 /* Vendor */,
+				D6F095CB1D7D4A2B00CB50E6 /* AppDelegate.h */,
+				D6F095CC1D7D4A2B00CB50E6 /* AppDelegate.m */,
+				D6F095CE1D7D4A2B00CB50E6 /* ViewController.h */,
+				D6F095CF1D7D4A2B00CB50E6 /* ViewController.m */,
+				D6F096041D7D4B3E00CB50E6 /* SegmentSuperViewController.h */,
+				D6F096051D7D4B3E00CB50E6 /* SegmentSuperViewController.m */,
+				D6F096021D7D4B3E00CB50E6 /* SegmentPageBaseViewController.h */,
+				D6F096031D7D4B3E00CB50E6 /* SegmentPageBaseViewController.m */,
+				D6F096061D7D4B3E00CB50E6 /* SegmentViewController.h */,
+				D6F096071D7D4B3E00CB50E6 /* SegmentViewController.m */,
+				D6F095D11D7D4A2B00CB50E6 /* Main.storyboard */,
+				D6F0960B1D7D4BB200CB50E6 /* Animal.jpeg */,
+				D6F095D41D7D4A2B00CB50E6 /* Assets.xcassets */,
+				D6F095D61D7D4A2B00CB50E6 /* LaunchScreen.storyboard */,
+				D6F095D91D7D4A2B00CB50E6 /* Info.plist */,
+				D6F095C81D7D4A2B00CB50E6 /* Supporting Files */,
+			);
+			path = MySegmentView;
+			sourceTree = "<group>";
+		};
+		D6F095C81D7D4A2B00CB50E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F095C91D7D4A2B00CB50E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6F095E11D7D4A2B00CB50E6 /* MySegmentViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F095E21D7D4A2B00CB50E6 /* MySegmentViewTests.m */,
+				D6F095E41D7D4A2B00CB50E6 /* Info.plist */,
+			);
+			path = MySegmentViewTests;
+			sourceTree = "<group>";
+		};
+		D6F095EC1D7D4A2B00CB50E6 /* MySegmentViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F095ED1D7D4A2B00CB50E6 /* MySegmentViewUITests.m */,
+				D6F095EF1D7D4A2B00CB50E6 /* Info.plist */,
+			);
+			path = MySegmentViewUITests;
+			sourceTree = "<group>";
+		};
+		D6F095FB1D7D4A7C00CB50E6 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D6F095FC1D7D4B0900CB50E6 /* MainTouchTableTableView.h */,
+				D6F095FD1D7D4B0900CB50E6 /* MainTouchTableTableView.m */,
+				D6F095FE1D7D4B0900CB50E6 /* MYSegmentView.h */,
+				D6F095FF1D7D4B0900CB50E6 /* MYSegmentView.m */,
+			);
+			name = Vendor;
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F095C41D7D4A2B00CB50E6 /* MySegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F095F21D7D4A2B00CB50E6 /* Build configuration list for PBXNativeTarget "MySegmentView" */;
+			buildPhases = (
+				D6F095C11D7D4A2B00CB50E6 /* Sources */,
+				D6F095C21D7D4A2B00CB50E6 /* Frameworks */,
+				D6F095C31D7D4A2B00CB50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySegmentView;
+			productName = MySegmentView;
+			productReference = D6F095C51D7D4A2B00CB50E6 /* MySegmentView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F095DD1D7D4A2B00CB50E6 /* MySegmentViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F095F51D7D4A2B00CB50E6 /* Build configuration list for PBXNativeTarget "MySegmentViewTests" */;
+			buildPhases = (
+				D6F095DA1D7D4A2B00CB50E6 /* Sources */,
+				D6F095DB1D7D4A2B00CB50E6 /* Frameworks */,
+				D6F095DC1D7D4A2B00CB50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F095E01D7D4A2B00CB50E6 /* PBXTargetDependency */,
+			);
+			name = MySegmentViewTests;
+			productName = MySegmentViewTests;
+			productReference = D6F095DE1D7D4A2B00CB50E6 /* MySegmentViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F095E81D7D4A2B00CB50E6 /* MySegmentViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F095F81D7D4A2B00CB50E6 /* Build configuration list for PBXNativeTarget "MySegmentViewUITests" */;
+			buildPhases = (
+				D6F095E51D7D4A2B00CB50E6 /* Sources */,
+				D6F095E61D7D4A2B00CB50E6 /* Frameworks */,
+				D6F095E71D7D4A2B00CB50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F095EB1D7D4A2B00CB50E6 /* PBXTargetDependency */,
+			);
+			name = MySegmentViewUITests;
+			productName = MySegmentViewUITests;
+			productReference = D6F095E91D7D4A2B00CB50E6 /* MySegmentViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F095BD1D7D4A2B00CB50E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "小李";
+				TargetAttributes = {
+					D6F095C41D7D4A2B00CB50E6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D6F095DD1D7D4A2B00CB50E6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = AA3P3HCRBL;
+						TestTargetID = D6F095C41D7D4A2B00CB50E6;
+					};
+					D6F095E81D7D4A2B00CB50E6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = AA3P3HCRBL;
+						TestTargetID = D6F095C41D7D4A2B00CB50E6;
+					};
+				};
+			};
+			buildConfigurationList = D6F095C01D7D4A2B00CB50E6 /* Build configuration list for PBXProject "MySegmentView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F095BC1D7D4A2B00CB50E6;
+			productRefGroup = D6F095C61D7D4A2B00CB50E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F095C41D7D4A2B00CB50E6 /* MySegmentView */,
+				D6F095DD1D7D4A2B00CB50E6 /* MySegmentViewTests */,
+				D6F095E81D7D4A2B00CB50E6 /* MySegmentViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F095C31D7D4A2B00CB50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F095D81D7D4A2B00CB50E6 /* LaunchScreen.storyboard in Resources */,
+				D6F0960C1D7D4BB200CB50E6 /* Animal.jpeg in Resources */,
+				D6F095D51D7D4A2B00CB50E6 /* Assets.xcassets in Resources */,
+				D6F095D31D7D4A2B00CB50E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F095DC1D7D4A2B00CB50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F095E71D7D4A2B00CB50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F095C11D7D4A2B00CB50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F096091D7D4B3E00CB50E6 /* SegmentSuperViewController.m in Sources */,
+				D6F096011D7D4B0900CB50E6 /* MYSegmentView.m in Sources */,
+				D6F095D01D7D4A2B00CB50E6 /* ViewController.m in Sources */,
+				D6F096081D7D4B3E00CB50E6 /* SegmentPageBaseViewController.m in Sources */,
+				D6F0960A1D7D4B3E00CB50E6 /* SegmentViewController.m in Sources */,
+				D6F095CD1D7D4A2B00CB50E6 /* AppDelegate.m in Sources */,
+				D6F095CA1D7D4A2B00CB50E6 /* main.m in Sources */,
+				D6F096001D7D4B0900CB50E6 /* MainTouchTableTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F095DA1D7D4A2B00CB50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F095E31D7D4A2B00CB50E6 /* MySegmentViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F095E51D7D4A2B00CB50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F095EE1D7D4A2B00CB50E6 /* MySegmentViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F095E01D7D4A2B00CB50E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F095C41D7D4A2B00CB50E6 /* MySegmentView */;
+			targetProxy = D6F095DF1D7D4A2B00CB50E6 /* PBXContainerItemProxy */;
+		};
+		D6F095EB1D7D4A2B00CB50E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F095C41D7D4A2B00CB50E6 /* MySegmentView */;
+			targetProxy = D6F095EA1D7D4A2B00CB50E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F095D11D7D4A2B00CB50E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F095D21D7D4A2B00CB50E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F095D61D7D4A2B00CB50E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F095D71D7D4A2B00CB50E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F095F01D7D4A2B00CB50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F095F11D7D4A2B00CB50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F095F31D7D4A2B00CB50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MySegmentView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.MySegmentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6F095F41D7D4A2B00CB50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MySegmentView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.MySegmentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6F095F61D7D4A2B00CB50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySegmentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bonday.MySegmentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySegmentView.app/MySegmentView";
+			};
+			name = Debug;
+		};
+		D6F095F71D7D4A2B00CB50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySegmentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bonday.MySegmentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySegmentView.app/MySegmentView";
+			};
+			name = Release;
+		};
+		D6F095F91D7D4A2B00CB50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MySegmentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bonday.MySegmentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySegmentView;
+			};
+			name = Debug;
+		};
+		D6F095FA1D7D4A2B00CB50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MySegmentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bonday.MySegmentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySegmentView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F095C01D7D4A2B00CB50E6 /* Build configuration list for PBXProject "MySegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F095F01D7D4A2B00CB50E6 /* Debug */,
+				D6F095F11D7D4A2B00CB50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F095F21D7D4A2B00CB50E6 /* Build configuration list for PBXNativeTarget "MySegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F095F31D7D4A2B00CB50E6 /* Debug */,
+				D6F095F41D7D4A2B00CB50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F095F51D7D4A2B00CB50E6 /* Build configuration list for PBXNativeTarget "MySegmentViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F095F61D7D4A2B00CB50E6 /* Debug */,
+				D6F095F71D7D4A2B00CB50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F095F81D7D4A2B00CB50E6 /* Build configuration list for PBXNativeTarget "MySegmentViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F095F91D7D4A2B00CB50E6 /* Debug */,
+				D6F095FA1D7D4A2B00CB50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F095BD1D7D4A2B00CB50E6 /* Project object */;
+}
